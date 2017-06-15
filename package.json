@@ -1,0 +1,36 @@
+{
+  "name": "lvern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonwwl/lvern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonwwl/lvern/issues"
+  },
+  "homepage": "https://github.com/jasonwwl/lvern#readme",
+  "dependencies": {
+    "boom": "^5.1.0",
+    "debug": "^2.6.8",
+    "egg-logger": "^1.6.0",
+    "koa": "^2.2.0",
+    "mongoose": "^4.10.6",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
