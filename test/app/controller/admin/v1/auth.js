@@ -1,11 +1,6 @@
-class Auth {
-  constructor (app) {
-    this.lvern = app
-  }
 
+module.exports = app => ({
   async login (ctx) {
-    ctx.body = 'call login!!'
+    ctx.body = {asf: 123}
   }
-}
-
-module.exports = Auth
+})
